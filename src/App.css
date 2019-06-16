@@ -1,0 +1,349 @@
+/**********************************Global Settings************************************************************/
+.App {
+  z-index: 100000;
+  background-color: #a9a9a9;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.card {
+  overflow: hidden;
+  border: 2px solid #000 !important;
+}
+
+.row {
+  margin: 0 !important;
+}
+
+/***********************************Header Content**************************************************************/
+.header {
+  z-index: 10000;
+  align-items: center;
+  justify-content: center;
+  background-color: #1a7bc1 !important;
+}
+
+.icon-search {
+  font-size: 1.25rem;
+  float: right;
+  color: #a3cae6;
+}
+
+.row-container {
+  align-items: center;
+  justify-content: center;
+}
+
+.containers {
+  color: #fff;
+}
+.icon-edit {
+  font-size: 1.25rem;
+  float: left;
+  color: #a3cae6;
+}
+
+.Starbuks {
+  font-size: 1.5rem;
+  font-weight: 500 !important;
+}
+
+/**************************************************Ribbon***********************************************************/
+.corner-ribbon {
+  font-weight: 800;
+  z-index: 100;
+  width: 200px;
+  background: #da0808;
+  position: absolute;
+  text-align: center;
+  line-height: 50px;
+  letter-spacing: 1px;
+  color: #f0f0f0;
+  top: 110px;
+  right: -50px;
+  left: auto;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.corner-ribbon.shadow {
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+/**************************************************Content******************************************************/
+.background {
+  position: relative;
+  background-image: url(./assets/img/backstarbucks.jpeg);
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 365px;
+  width: 100%;
+}
+
+.main-container {
+  position: absolute;
+  top: 16%;
+  left: 45%;
+}
+
+.card-body {
+  padding: 0 !important;
+}
+
+.icon-starbucks {
+  border-radius: 5px;
+}
+
+.main-title {
+  position: absolute;
+  top: 30%;
+  left: 42%;
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.main-subtitle {
+  position: absolute;
+  top: 39%;
+  left: 31%;
+  color: #fff;
+  font-size: 2.1rem;
+  font-weight: 500;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid #625746;
+  font-size: 50px;
+  color: #2098d1;
+  line-height: 200px;
+  text-align: center;
+}
+
+.Cricles {
+  position: absolute;
+  top: 48%;
+  left: 38%;
+  color: #fff;
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+.icon-pin {
+  width: 70px;
+  height: 70px;
+}
+
+.follower-container {
+  position: relative;
+  width: 100%;
+  margin: -16px 10%;
+  border-radius: 7px;
+  border: 1px solid #ebebeb;
+  background-color: #fff;
+}
+
+.fonts-container {
+  font-size: 1.25rem;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.grayword {
+  color: #474747;
+}
+
+.button-container {
+  width: 100%;
+  margin: -16px 10%;
+  padding-top: 45px;
+}
+
+.buttons {
+  min-height: 102px;
+}
+
+.leftitem {
+  width: 30%;
+  float: left;
+  background-color: #04cc33 !important;
+  color: #fff;
+}
+
+.share-container {
+  flex-direction: row;
+  flex-wrap: wrap;
+  float: right;
+  width: 25%;
+  height: 50px;
+  border: 1px solid #ebebeb;
+  border-radius: 7px;
+  justify-content: space-between;
+  position: relative;
+  margin: 0 auto;
+}
+
+.share-container:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  border-left: 2px solid #ebebeb;
+  transform: translate(-50%);
+  clear: both;
+}
+
+.svgcontent {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  width: 50%;
+}
+
+.following {
+  max-height: 20px;
+}
+
+.padding-container {
+  background-color: #eee7e1;
+}
+
+.sturbucks-container {
+  max-width: 100%;
+  margin-top: 20px;
+  padding: 5px 5px 5px 0;
+  background-color: #fff;
+  display: block;
+  height: 80%;
+}
+.sturbucks-container:after {
+  clear: both;
+}
+
+/************************************************************Footer************************************************/
+
+.footer-logo {
+  z-index: 999;
+  width: 70px;
+  height: 70px;
+  float: left;
+  margin-left: 10%;
+}
+
+.starbucks-logo {
+  float: left;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 0 !important;
+}
+
+.address-logo {
+  float: left;
+}
+
+.margin-container {
+  padding-left: 17%;
+  height: 100%;
+}
+
+.footer {
+  background-color: #0d0d0c !important;
+}
+
+.button {
+  color: #fff;
+
+  transform: rotate3d(0, 1, 0, 60deg);
+  -webkit-transform: rotate3d(0, 1, 0, 60deg);
+}
+
+.pres {
+  transform: rotate3d(0, 1, 0, 60deg);
+  -webkit-transform: rotate3d(0, 1, 0, 60deg);
+}
+
+.button:hover {
+  color: #049928;
+  border-bottom: 2px solid #7079db;
+}
+
+.button-pres {
+  color: #fff;
+}
+
+.button-pres:hover {
+  color: #049928;
+  border-bottom: 2px solid #7079db;
+}
+
+.presleft {
+  transform: rotate3d(0, 1, 0, -60deg);
+  -webkit-transform: rotate3d(0, 1, 0, -60deg);
+}
+
+@media only screen and (max-width: 860px) {
+  .Cricles {
+    left: 27%;
+  }
+  .main-title {
+    left: 35%;
+  }
+  .main-container {
+    left: 41%;
+  }
+  .main-subtitle {
+    font-size: 1.8rem;
+    left: 21%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .Cricles {
+    left: 17%;
+  }
+  .main-title {
+    font-size: 2.3rem;
+    left: 31%;
+  }
+  .main-container {
+    left: 35%;
+  }
+  .main-subtitle {
+    font-size: 1.2rem;
+    left: 21%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .Cricles {
+    top: 43%;
+    left: 15%;
+  }
+  .icon-pin {
+    width: 55px;
+    height: 55px;
+  }
+  .main-title {
+    font-size: 2rem;
+    left: 31%;
+  }
+  .main-container {
+    left: 35%;
+  }
+  .main-subtitle {
+    font-size: 1rem;
+    left: 17%;
+  }
+}
